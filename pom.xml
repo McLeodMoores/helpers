@@ -8,14 +8,27 @@
   <packaging>jar</packaging>
 
   <name>Miscellaneous Helpers</name>
-  <description>Scripts and resources to assist in development within the uk.co.beerdragon groupId</description>
+  <description>Scripts and resources to assist in development within the com.mcleodmoores.maven groupId</description>
   <licenses>
     <license>
       <name>GNU Lesser General Public License, Version 3</name>
       <url>http://www.gnu.org/licenses/lgpl.txt</url>
     </license>
   </licenses>
-
+  <developers>
+  	<developer>
+  	  <name>Andrew Griffin</name>
+  	</developer>
+  </developers>
+  <contributors>
+  	<contributor>
+  	  <name>Jim Moores</name>
+  	  <email>jim@mcleodmoores.com</email>
+  	  <organization>McLeod Moores Software Limited</organization>
+  	  <organizationUrl>http://www.mcleodmoores.com</organizationUrl>
+  	  <timezone>Europe/London</timezone>
+  	</contributor>
+  </contributors>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
@@ -58,4 +71,11 @@
     </plugins>
   </build>
 
+  <organization>
+  	<name>McLeod Moores Software Limited</name>
+  	<url>http://www.mcleodmoores.com</url>
+  </organization>
+  <scm>
+  	<url>https://github.com/McLeodMoores/helpers.git</url>
+  </scm>
 </project>
